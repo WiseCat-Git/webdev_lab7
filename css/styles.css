@@ -1,0 +1,121 @@
+/* css/styles.css */
+
+/* Page base */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #0b1020, #111a33);
+  color: #e9edf6;
+}
+
+#page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Header */
+#header {
+  padding: 20px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+h1 {
+  margin: 0 0 6px 0;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  margin: 0 0 10px 0;
+  font-style: italic;
+  color: rgba(233, 237, 246, 0.85);
+}
+
+.note {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(233, 237, 246, 0.85);
+}
+
+/* Banner image */
+#banner {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* Card section */
+.card {
+  margin-top: 18px;
+  padding: 18px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-weight: 800;
+}
+
+/* Table styling */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 14px;
+  background: rgba(10, 14, 28, 0.65);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.data-table caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.data-table thead th {
+  text-align: left;
+  padding: 12px 10px;
+  background: rgba(255, 255, 255, 0.10);
+  font-weight: 800;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.data-table tbody th,
+.data-table tbody td {
+  padding: 12px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.data-table tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.data-table tbody tr:hover {
+  background: rgba(227, 83, 53, 0.18);
+}
+
+.data-table tbody th {
+  font-weight: 800;
+}
+
+/* Planet icons in table */
+.planet-icon {
+  width: 28px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Footer */
+#footer {
+  margin-top: 18px;
+  padding: 12px 0;
+  font-size: 0.95rem;
+  color: rgba(233, 237, 246, 0.75);
+}

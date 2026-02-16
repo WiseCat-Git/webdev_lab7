@@ -1,0 +1,118 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Planetary Data Table</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="page">
+    <header id="header">
+      <img src="images/Banner.jpg" alt="Solar system banner" id="banner">
+
+      <h1>Planetary Data Table</h1>
+
+      <p class="subtitle">
+        A comparison of 4 planets using 7 fields from NASA’s Planetary Fact Sheet (metric table).
+      </p>
+
+      <p class="note">
+        Data source note: The official NASA NSSDC Planetary Fact Sheet page was temporarily unavailable during development.
+        Data on this page mirrors the NASA metric table from an educational mirror of the NSSDC fact sheet.
+      </p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Four Inner Planets</h2>
+        <p>
+          Data fields: Diameter, Density, Gravity, Escape Velocity, Rotation Period, Length of Day,
+          and Distance from Sun.
+        </p>
+
+        <table id="planet-table" class="data-table">
+          <caption>Inner Planets Comparison (Metric)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Planet</th>
+              <th scope="col">Diameter (km)</th>
+              <th scope="col">Density (kg/m³)</th>
+              <th scope="col">Gravity (m/s²)</th>
+              <th scope="col">Escape Velocity (km/s)</th>
+              <th scope="col">Rotation Period (hours)</th>
+              <th scope="col">Length of Day (hours)</th>
+              <th scope="col">Distance from Sun (10⁶ km)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <img src="images/planet.png" alt="Mercury icon" class="planet-icon">
+                Mercury
+              </th>
+              <td>4,879</td>
+              <td>5,427</td>
+              <td>3.7</td>
+              <td>4.3</td>
+              <td>1407.6</td>
+              <td>4222.6</td>
+              <td>57.9</td>
+            </tr>
+
+            <tr>
+              <th scope="row">
+                <img src="images/venus.png" alt="Venus icon" class="planet-icon">
+                Venus
+              </th>
+              <td>12,104</td>
+              <td>5,243</td>
+              <td>8.9</td>
+              <td>10.4</td>
+              <td>-5832.5</td>
+              <td>2802.0</td>
+              <td>108.2</td>
+            </tr>
+
+            <tr>
+              <th scope="row">
+                <img src="images/planet-earth.png" alt="Earth icon" class="planet-icon">
+                Earth
+              </th>
+              <td>12,756</td>
+              <td>5,515</td>
+              <td>9.8</td>
+              <td>11.2</td>
+              <td>23.9</td>
+              <td>24.0</td>
+              <td>149.6</td>
+            </tr>
+
+            <tr>
+              <th scope="row">
+                <img src="images/mars.png" alt="Mars icon" class="planet-icon">
+                Mars
+              </th>
+              <td>6,794</td>
+              <td>3,933</td>
+              <td>3.7</td>
+              <td>5.0</td>
+              <td>24.6</td>
+              <td>24.7</td>
+              <td>227.9</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="note">
+          Notes: Negative rotation period indicates retrograde rotation (Venus).
+        </p>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>Lab 7 — ITMD-361 — Andres Felipe Lopez Lozano</p>
+    </footer>
+  </div>
+</body>
+</html>
